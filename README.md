@@ -1,1 +1,0 @@
-# manuelalejandrogarcia.github.io

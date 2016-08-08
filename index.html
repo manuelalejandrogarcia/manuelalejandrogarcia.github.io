@@ -1,96 +1,258 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Manuel Garcia</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cerveceria</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="images/favicon-1.ico" type="image/x-icon">
+    </head>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Manuel Alejandro Garcia Mellado</h1>
-							<p>Consultor de TI * DBA * Programador PL/Pgsql</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=garcia.manuel1987@gmail.com" class="fa-envelope-o"></a></li>
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
+    <body>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Engenheiro Da Computação e Informática. </li>
-						</ul>
-					</footer>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html#">Santa Maria</a>
+                    </div>
 
-			</div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="color_animation navactive" href="index.html#top">WELCOME</a></li>
+                            <li><a class="color_animation" href="index.html#story">ABOUT</a></li>
+                            <li><a class="color_animation" href="index.html#pricing">BEERS</a></li>
+                            <li><a class="color_animation" href="index.html#beer">BEER</a></li>
+                            <li><a class="color_animation" href="index.html#featured">INGREDIENTS</a></li>
+                            <li><a class="color_animation" href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title"> Santa Maria </h2>
+                    <h2 class="white second-title">" Cerveceria artesanal "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+        <!-- ============ About Us ============= -->
 
-	</body>
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <div class="fa fa-shield fa-2x"></div>
+                    <p class="desc-text">Nuestra empresa tiene por objetivo el desarrollo regional de productos de alta calidad relacionados al consumo de Cerveza Artesanal, aprovechando las ventajas naturales y comparativas que implica la producción de materias primas a nivel local y el increíble potencial que las aguas de la región tienen para la producción de cervezas artesanales.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/cuadro1.jpg" width="250" height="220">
+                       <img src="images/cuadro2.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/cuadro3.jpg"  width="250" height="220">
+                       <img src="images/cuadro4.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1>Artisan <span>Beers</span></h1>
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter="scout">Scout</li>
+                                <li class="filter" data-filter="hony">Hony</li>
+                                <li class="filter" data-filter="lager">Lager</li>
+                                <li class="filter" data-filter="red">Red</li>
+                            </ul><!-- @end #filter-list -->    
+                            <ul id="portfolio">
+                                <li class="item scout"><img src="images/beer_scout1.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                <li class="item scout"><img src="images/beer_scout2.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                <li class="item scout"><img src="images/beer_scout3.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                <li class="item hony"><img src="images/beer_hony1.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                 <li class="item lager"><img src="images/beer_lager1.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                <li class="item lager"><img src="images/beer_lager2.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                                <li class="item red"><img src="images/beer_red1.jpg" alt="Food" >
+                                    <h2 class="white">Descripción: -- </h2>
+                                </li>
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>To enjoy <span>anywhere</span> </h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/beer_spec.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>OUR BEER</h1>
+                    <hr>
+                    <!-- <div class="icon-beer fa-2x"></div> -->
+                    <p class="desc-text">Nuestras cervezas son únicas, su inconfundible color y su sabor incomparable, son porque han sido creadas pensando en el consumidor. Hemos invertido toda nuestra energía en encontrar un sabor que satisfaga los paladares más exigentes. Hemos recogido la historia y creación de la cerveza, colocando los mejores procesos de elaboración con pleno cuidado y los hemos envasado en una botella. Cervezas artesanas, han sido elaborada para los verdaderos amantes de la cerveza.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>BEERS <span>Ingredients</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Nuestros Ingredientes</h1>
+                    <div class="fa fa-list fa-2x"></div>
+                    <p class="desc-text">Un secreto de la buena cerveza son sus nobles componentes. Sólo pueden emplearse cuatro ingredientes en la fabricación de cerveza. Nuestros maestros cerveceros seleccionan sólo las mejores materias primas de la región: lúpulo, levadura, malta-cebada y agua mineral de gran pureza. Cuanto más refinados sean los ingredientes, mejor resultará la cerveza. Por esta razón se examinan personalmente todas las materias primas de manera muy minuciosa.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider6.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider7.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider8.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FOLLOW</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="index.html#" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="index.html#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=garcia.manuel1987@gmail.com"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">OR DIAL</span>
+                    <span class="social_info"><a class="color_animation" href="#"> +56 9 9297-4388</a>
+                    <a class="color_animation" href="#""> +56 9 6786-8787</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12666.504808825925!2d-72.35993606158834!3d-37.46954669567613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x680071f9f6c9da42!2sLaguna+Esmeralda!5e0!3m2!1ses-419!2sbr!4v1470508344174" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Santa Maria 2016 </p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="index.html#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Built With Care By <a href="index.html#" target="_blank">Manuel Garcia</a></p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
 </html>
