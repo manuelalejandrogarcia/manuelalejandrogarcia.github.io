@@ -176,7 +176,7 @@ div#bs-example-navbar-collapse-1 {
     text-decoration: none !important;
 }
 .navbar-brand{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Playball', cursive;
     font-size: 34px !important;
     text-decoration: none;
     color: white !important;
@@ -640,7 +640,7 @@ MEDIA QUERIES TABLET
         padding-right: -15px;
     }
     .navbar-brand{
-        font-family: 'Pacifico', cursive;
+        font-family: 'Playball', cursive;
         font-size: 34px !important;
         text-decoration: none;
         color: white !important;
